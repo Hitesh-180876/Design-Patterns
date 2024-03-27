@@ -1,4 +1,4 @@
-package com.example.design.pattern.creational;
+package com.example.design.pattern.creational.singleton;
 
 public class Singleton {
 

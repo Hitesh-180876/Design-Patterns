@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cb0d3d-e06d-45f3-b456-f3d0072e43bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/design/pattern/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structural/Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Proxy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/prototype/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/prototype/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/prototype/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/prototype/PrototypeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/design/pattern/creational/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/design/pattern/creational/Singleton.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +50,32 @@
     "Maven.design.pattern [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/guest/Downloads/Design-Patterns"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.design.pattern.creational.Singleton" />
+  <component name="RunManager" selected="Application.PrototypeMain">
+    <configuration name="PrototypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.design.pattern.creational.prototype.PrototypeMain" />
       <module name="design.pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.design.pattern.creational.*" />
+          <option name="PATTERN" value="com.example.design.pattern.creational.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.design.pattern.creational.singleton.Singleton" />
+      <module name="design.pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.design.pattern.creational.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeMain" />
         <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
